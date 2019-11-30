@@ -12,38 +12,53 @@ function openNav() {
 
   ////////////////
 // Sticky Header
-$(window).scroll(function() {
+function Book (topic,date_write,age){
+    this.topic = topic;
+    this.date_write = date_write;
+    this.age = age ;
+    book_storage.all.push(this)
 
-    if ($(window).scrollTop() > 100) {
-        $('.main_h').addClass('sticky');
-    } else {
-        $('.main_h').removeClass('sticky');
+}
+for (var z;z<array_of_books.length;z++){
+    Book(array_of_books[z]);
+}
+
+var myFunction = function(event){
+    var request = [] ;
+    if (event.targrt.value == 'action'){
+
+
     }
-});
+    if (event.targrt.value == "true_story"){
 
-// Mobile Navigation
-$('.mobile-toggle').click(function() {
-    if ($('.main_h').hasClass('open-nav')) {
-        $('.main_h').removeClass('open-nav');
-    } else {
-        $('.main_h').addClass('open-nav');
     }
-});
 
-$('.main_h li a').click(function() {
-    if ($('.main_h').hasClass('open-nav')) {
-        $('.navigation').removeClass('open-nav');
-        $('.main_h').removeClass('open-nav');
+    if(event.targrt.value == "novels"){
+
     }
-});
+    if(event.targrt.value == "ideas"){
 
-// navigation scroll lijepo radi materem
-$('nav a').click(function(event) {
-    var id = $(this).attr("href");
-    var offset = 70;
-    var target = $(id).offset().top - offset;
-    $('html, body').animate({
-        scrollTop: target
-    }, 500);
-    event.preventDefault();
-});
+    }
+    if(event.targrt.value == "90"){
+
+    }
+    if(event.targrt.value == "20"){
+
+    }
+    if(event.targrt.value == "10"){
+
+    }
+
+    if(event.targrt.value == "6"){
+
+    }
+    if(event.targrt.value == "12"){
+
+    }
+    if(event.targrt.value == "19"){
+        
+    }
+
+}
+var pick = document.getElementById('submit')
+pick.addEventListener('submit',myFunction() )
