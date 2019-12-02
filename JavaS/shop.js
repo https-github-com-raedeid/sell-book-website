@@ -28,8 +28,11 @@ for (var w=0;w<feed_back.length;w++){
     //     console.log(add_cart)
 
 }
-var MyFunction = function(event){
-    localStorage.setItem('cart',JSON.stringify(feed_back[w]))
+localStorage.setItem('cart',JSON.stringify([]));
+var MyFunctionToAdd = function(event){
+        JSON.parse(localStorage.getItem('cart')).push(feed_back[w])
         
-        
+}
+var MyFunctionToDelete = function(){
+    
 }
