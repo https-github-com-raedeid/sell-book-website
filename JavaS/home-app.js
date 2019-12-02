@@ -88,7 +88,7 @@ pick.addEventListener('submit', function (event) {
   function isEqual(obj) {
     console.log(request);
     if (request[0] === obj.Topic) {
-      if (request[1] === obj.Age) {
+      if (request[1] === obj.Age) {''
         if (request[2] === obj.Date_write) {
           return true
         }
