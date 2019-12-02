@@ -30,6 +30,7 @@ function Book(Name, Topic, Age, Date_write) {
   this.Age = Age;
   this.Date_write = Date_write;
   Book.all.push(this);
+
   
 }
 Book.all = [];
@@ -39,12 +40,13 @@ for (var z = 0; z < allBooks.length; z++) {
 
 var request = [];
 var myFunction = function (event) {
-  request = []
+  request = [];
   if (event.target.option.id == 'mystery') {
     request.push('mystery')
 
   }else if (event.target.option.id == "true_story") {
     request.push('true_story')
+    console.log(event.target.option.id)
   }else if (event.target.option.id == "science") {
     request.push('novels');
   }else if (event.target.option.id == "ideas") {
@@ -74,7 +76,10 @@ var myFunction = function (event) {
   }
 
 }
+
+
 var pick = document.getElementById('submit');
+console.log(request)
 pick.addEventListener('submit', myFunction);
 console.log(pick);
 // console.log(request);
@@ -82,7 +87,7 @@ console.log(pick);
 var books_request = []
 for (var i=0;i<request.length;i++){
   for (var l=0;l<Book.all.length;l++){
-    if (request[i] === Book.all[l].Topic){
+    if (request[i] === Book.all[l]){
 
       
     }
