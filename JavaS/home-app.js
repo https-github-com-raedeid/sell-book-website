@@ -14,18 +14,18 @@ function closeNav() {
 
 
 
-var allBooks = [['Murder in Cherry Hills', 'mystery', '6-12', '2011-until now'],
-['Infinity', 'mystery', '13-18', '1990-2000'],
-['No Shelter', 'mystery', '19 or More', '2001-2010'],
-['Sindi and the Moon', 'true_story', '6-12', '2001-2010'],
-['The Girl with No Name', 'true_story', '13-18', '1990-2000'],
-['When Johnny Comes Marching', 'true_story', '19 or More', '2011-until now'],
-['The Brain: The Story of You', 'science', '13-18', '2011-until now'],
-['Audrey the Amazing Inventor', 'science', '6-12', '1990-2000'],
-['science encyclopedia', 'science', '19 or More', '2001-2010'],
-['Public Speaking Super Powers', 'ideas', '6-12', '1990-2000'],
-['Cofounding the Right Way', 'ideas', '13-18', '2001-2010'],
-['Social Intelligence', 'ideas', '19 or More', '2011-until now']];
+var allBooks = [['Murder in Cherry Hills', 'mystery', '6-12', '2011-until now','pro_pbid_3893388.jpg','10jd'],
+['Infinity', 'mystery', '13-18', '1990-2000','pro_pbid_4322159.jpg'],
+['No Shelter', 'mystery', '19 or More', '2001-2010','pro_pbid_11887.jpg'],
+['Sindi and the Moon', 'true_story', '6-12', '2001-2010','01.jpg'],
+['The Girl with No Name', 'true_story', '13-18', '1990-2000','pro_pbid_16660.jpg'],
+['When Johnny Comes Marching', 'true_story', '19 or More', '2011-until now','1318432602.jpg'],
+['The Brain: The Story of You', 'science', '13-18', '2011-until now','51MBUjc9t-L._SX322_BO1,204,203,200_.jpg'],
+['Audrey the Amazing Inventor', 'science', '6-12', '1990-2000','BYKCW.jpg'],
+['science encyclopedia', 'science', '19 or More', '2001-2010','51ethkIpKWL._SX381_BO1,204,203,200_.jpg'],
+['Public Speaking Super Powers', 'ideas', '6-12', '1990-2000','pro_pbid_4212722.jpg'],
+['Cofounding the Right Way', 'ideas', '13-18', '2001-2010','pro_pbid_4077055.jpg'],
+['Social Intelligence', 'ideas', '19 or More', '2011-until now','pro_pbid_4449297.jpg']];
 
 
 function Book(Name, Topic, Age, Date_write) {
