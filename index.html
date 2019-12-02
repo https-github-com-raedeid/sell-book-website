@@ -9,32 +9,37 @@
   <body>
     <header>
       <div id="myNav" class="overlay">
-        <form id="form" action="shop.html">
+        <form id="form"  action="shop.html">
           <fieldset> 
-            <legend></legend>   
-            <select name="choose topic" id="choose topic">
+            <legend></legend>
+            <label for="choose topic">choose topic</label>   
+            <select name="choosetopic" id="chooseTopic">
+              <option ></option>
               <option value="mystery" id="mystery">mystery</option>
               <option value="true_story" id="true_story">True stories</option>
-              <option value='Sience' id="Sience">Sience</option>
+              <option value='sience' id="sience">Sience</option>
               <option value="ideas" id="ideas">Ideas</option>
             </select>
-            <select name="choose date of writing" id="choose date">
-              <option value="1990-2000" id="1990-2000">1990-2000</option>
-              <option value="2001-2010">2001-2010</option>
-              <option value="2011-2019">2011-2019</option>
-            </select>
-            <select name="Target age" id="target age">
+            <label for="">your age</label>
+            <select name="Target age" id="targetAge">
+              <option ></option>
               <option value="6-12">6-12</option>
               <option value='13-18'>13-18</option>
               <option value='19 or More'>19 or More</option>
             </select>
-            <!-- <label for=""></label> -->
-      <button id="submit">go</button>
-    </fieldset>
-  </form>
-  
-</div>
-</div>
+            <label for="">choose Date of writing</label>
+            <select name="choose date of writing" id="chooseDate">
+              <option ></option>
+              <option value="1990-2000" >1990-2000</option>
+              <option value="2001-2010">2001-2010</option>
+              <option value="2011-until now">2011-until now</option>
+            </select>
+          </fieldset>
+          <button type="submit" id="listen" >Go</button>
+        </form>
+
+      </div>
+
 
 <div class="header">
   <div class="sides">
@@ -176,7 +181,7 @@
       </footer>
 
       
+      <script src="JavaS/home-app.js"></script>
 </body>
-<script src="JavaS/home-app.js"></script>
 
 </html>
