@@ -1,188 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-  
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/home.css" type="text/css" />
-  </head>
-  
-  <body>
-    <header>
-      <div id="myNav" class="overlay">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <form id="form"  action="shop.html">
-          <fieldset> 
-            <legend></legend>
-            <label for="choose topic">Choose topic</label>   
-            <select name="choosetopic" id="chooseTopic">
-              <option ></option>
-              <option value="mystery" id="mystery">Mystery</option>
-              <option value="true_story" id="true_story">True stories</option>
-              <option value='sience' id="sience">Sience</option>
-              <option value="ideas" id="ideas">Ideas</option>
-            </select>
-            <label for="">Your age</label>
-            <select name="Target age" id="targetAge">
-              <option ></option>
-              <option value="6-12">6-12</option>
-              <option value='13-18'>13-18</option>
-              <option value='19 or More'>19 or More</option>
-            </select>
-            <label for="">Choose Date of writing</label>
-            <select name="choose date of writing" id="chooseDate">
-              <option ></option>
-              <option value="1990-2000" >1990-2000</option>
-              <option value="2001-2010">2001-2010</option>
-              <option value="2011-until now">2011-until now</option>
-            </select>
-          </fieldset>
-          <button type="submit" id="listen" >Go</button>
-        </form>
 
+<head>
+    
+   
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/home.css" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <form id="form" action="shop.html">
+        <fieldset>
+          <legend></legend>
+          <label for="choose topic">Choose topic</label>
+          <select name="choosetopic" id="chooseTopic">
+            <option></option>
+            <option value="mystery" id="mystery">mystery</option>
+            <option value="true_story" id="true_story">True stories</option>
+            <option value='sience' id="sience">Sience</option>
+            <option value="ideas" id="ideas">Ideas</option>
+          </select>
+          <label for="">Your Age</label>
+          <select name="Target age" id="targetAge">
+            <option></option>
+            <option value="6-12">6-12</option>
+            <option value='13-18'>13-18</option>
+            <option value='19 or More'>19 or More</option>
+          </select>
+          <label for="">Choose Date of writing</label>
+          <select name="choose date of writing" id="chooseDate">
+            <option></option>
+            <option value="1990-2000">1990-2000</option>
+            <option value="2001-2010">2001-2010</option>
+            <option value="2011-until now">2011-until now</option>
+          </select>
+        </fieldset>
+        <button type="submit" id="listen">Go</button>
+
+      </form>
+
+    </div>
+
+
+    <div class="header">
+      <div class="sides">
+        <a href="#" id="Shope" class="logo">Home</a>
       </div>
-
-
-<div class="header">
-  <div class="sides">
-    <a href="#" id="Shope" class="logo">Home</a>
-  </div>
-  <div class="sides"> <a onclick="openNav()" href="#" class="menu"> </a></div>
-  <div class="info">
-    <h1><a>P.O.T.M</a></h1>
-    <h1>The More YOU Learn The More YOU Own</h1>
-  </div>
-</div>
-
-</header>
-<main>
-  <section class="content">
-    <div class="flip-card">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <img src="img\Naysayers.jpg" alt="Avatar" style="width:200px;height:200px;">
-        </div>
-        <div class="flip-card-back">
-          <h1>book</h1> 
-          <h1>$19.99</h1> 
-          <h1>XXX</h1>
-        </div>
+      <div class="sides"> <a onclick="openNav()" href="#" class="menu"> </a></div>
+      <div class="info">
+        <h1><a>P.O.T.M</a></h1>
+        <h1>The More YOU Learn The More YOU Own</h1>
       </div>
     </div>
-    <div class="flip-card">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <img src="img\Lead-nurturing-optimieren-header.png" alt="Avatar" style="width:200px;height:200px;">
-        </div>
-        <div class="flip-card-back">
-          <h1>book</h1> 
-          <h1>$23.99</h1> 
-          <h1>XXX</h1>
-        </div>
-      </div>
-    </div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisl turpis, porttitor et finibus id, viverra a
-      metus. Praesent non ante sed orci posuere varius quis sit amet dui. Cras molestie magna orci, id gravida dolor
-      molestie in. Duis sollicitudin turpis quis tortor egestas, ut ultrices nisl elementum. Vestibulum sed ipsum eget
-      nulla laoreet cursus in ac sem. Integer a suscipit justo, quis aliquam sapien. Maecenas et tellus nibh. Vivamus
-      tincidunt eros id commodo pellentesque.</p>
-      <br>
-      <br>
-      
-    </section>
-    <div class="image-container" class="parallax">
-      <div class="text">BOOKS</div>
-    </div>
+    
+  </header>
+  <main>
     <br>
     <br>
     <section class="content">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisl turpis, porttitor et finibus id, viverra a
-        metus. Praesent non ante sed orci posuere varius quis sit amet dui. Cras molestie magna orci, id gravida dolor
-        molestie in. Duis sollicitudin turpis quis tortor egestas, ut ultrices nisl elementum. Vestibulum sed ipsum eget
-        nulla laoreet cursus in ac sem. Integer a suscipit justo, quis aliquam sapien. Maecenas et tellus nibh. Vivamus
-        tincidunt eros id commodo pellentesque.</p>
-      </section>
-      
-      <div class="image-container1">
-        <div class="text">BOOKS</div>
-      </div>
-      
-    </main>
-    <footer>
-      <div class="footer">
-        <br>
-        <br><br>
-        <br>
-        
-        
-        <div class="contain">
-          <div class="col">
-            <h1>Company</h1>
-            <ul>
-              <li>About</li>
-              <li>Mission</li>
-              <li>Services</li>
-              <li>Social</li>
-              <li>Get in touch</li>
-            </ul>
-          </div>
-          <div class="col">
-            <h1>Products</h1>
-            <ul>
-              <li>About</li>
-              <li>Mission</li>
-              <li>Services</li>
-              <li>Social</li>
-              <li>Get in touch</li>
-            </ul>
-          </div>
-          <div class="col">
-            <h1>Accounts</h1>
-            <ul>
-              <li>About</li>
-              <li>Mission</li>
-              <li>Services</li>
-              <li>Social</li>
-              <li>Get in touch</li>
-            </ul>
-          </div>
-          <div class="col">
-            <h1>Resources</h1>
-            <ul>
-              <li>Webmail</li>
-              <li>Redeem code</li>
-              <li>WHOIS lookup</li>
-              <li>Site map</li>
-              <li>Web templates</li>
-              <li>Email templates</li>
-            </ul>
-          </div>
-          <div class="col">
-            <h1>Support</h1>
-            <ul>
-              <li>Contact us</li>
-              <li>Web chat</li>
-              <li>Open ticket</li>
-            </ul>
-          </div>
-          <div class="col social">
-            <h1>Social</h1>
-            <ul>
-              <li><img src="https://svgshare.com/i/5fq.svg" width="32" style="width: 32px;"></li>
-              <li><img src="https://svgshare.com/i/5eA.svg" width="32" style="width: 32px;"></li>
-              <li><img src="https://svgshare.com/i/5f_.svg" width="32" style="width: 32px;"></li>
-            </ul>
-          </div>
-          <div class="clearfix"></div>
-          <div style="padding-left:20px">
-              <p>Made By Rashid-Alsawalqa</p>
-            </div>
-            <br>
-          </div>
-        </div>
-      </footer>
+      <img data-aos="fade-right" id="sos" src="img\3.jpg" alt="Avatar" style="width:200px;height:300px;">
+      <p data-aos="fade-left">Isobel is an artistic prodigy with a dangerous set of clients: the sinister fair folk, immortal creatures who
+        cannot bake bread or put a pen to paper without crumbling to dust. They crave human Craft with a terrible
+        thirst, and Isobel’s paintings are highly prized. But when she receives her first royal patron - Rook, the
+        autumn prince - she makes a terrible mistake. She paints mortal sorrow in his eyes - a weakness that could cost
+        him his life.</p>
+      <p data-aos="fade-up-right"> Furious, Rook spirits her away to his kingdom to stand trial for her crime. But something is seriously wrong
+        in
+        his world, and they are attacked from every side. With Isobel and Rook depending on each other for survival,
+        their alliance blossoms into trust, then love - and that love violates the fair folks’ ruthless laws. Now both
+        of their lives are forfeit, unless Isobel can use her skill as an artist to fight the fairy courts. Because
+        secretly, her Craft represents a threat the fair folk have never faced in all the millennia of their unchanging
+        lives: for the first time, her portraits have the power to make them feel.</p>
+      <p data-aos="fade-left">NOTE: This title is a Bargain Book Copy, purchased direct from the publisher or distributor as excess inventory
+        or a store return. The book is in new condition and will, in most cases, have a small dot or line on the edge of
+        the book. It may also have a price sticker on it from the original store it was returned from. In a rare case
+        the actual cover for a book might not match the one in the display picture. For more information please refer to
+        the information page Our Product.</p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </section>
+    <div class="image-container" class="parallax">
+      <div class="text">NOVELS</div>
+    </div>
 
-      
-      <script src="JavaS/home-app.js"></script>
+    <section class="content">
+      <img data-aos="zoom-in-up" id="XoX" src="img\5.jpg" alt="Avatar" style="width:200px;height:300px;">
+
+      <img data-aos="zoom-in-down" id="XoX" src="img\Naysayers.jpg" alt="Avatar" style="width:200px;height:300px;">
+
+
+
+
+      <img data-aos="zoom-in-up" id="XoX" src="img\10.jpg" alt="Avatar" style="width:200px;height:300px;">
+
+      <img  data-aos="zoom-in-up" id="XoX" src="img\1.jpg" alt="Avatar" style="width:200px;height:300px;">
+
+    </section>
+    <section class="content">
+      <img data-aos="zoom-in-right" id="sos" src="img\4.jpg" alt="Avatar" style="width:200px;height:300px;">
+      <p data-aos="zoom-out">They call her Traitor Kate. It’s a title Kate Brighton inherited from her father after he tried to assassinate
+        the high king of Rime.</p>
+
+        <p data-aos="zoom-out-up"> out of the nobility, Kate now works for the royal courier service. Only the most skilled ride for the Relay
+        and only the fastest survive, for when night falls, the drakes—deadly flightless dragons—come out to hunt.
+        Fortunately, Kate has a secret edge: She is a wilder, born with forbidden magic that allows her to influence the
+        minds of animals.</p>
+
+       <p data-aos="zoom-out"> And it’s this magic that leads her to a caravan massacred by drakes in broad daylight—the only survivor Corwin
+        Tormaine, the son of the king. Her first love, the boy she swore to forget after he condemned her father to
+        death.</p>
+
+       <p data-aos="zoom-out-up"> With their paths once more entangled, Kate and Corwin must put the past behind them to face this new threat and
+        an even darker menace stirring in the kingdom.</p>
+
+       <p data-aos="zoom-out"> NOTE: This title is a Bargain Book Copy, purchased direct from the publisher or distributor as excess inventory
+        or a store return. The book is in new condition and will, in most cases, have a small dot or line on the edge of
+        the book. It may also have a price sticker on it from the original store it was returned from. In a rare case
+        the actual cover for a book might not match the one in the display picture. For more information please refer to
+        the information page Our Product.</p>
+    </section>
+    <section class="content">
+
+      <img data-aos="fade-up"
+      data-aos-duration="3000" id="XoX" src="img\11.jpg" alt="Avatar" style="width:200px;height:300px;">
+
+
+      <img data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500" id="XoX" src="img\8.jpg" alt="Avatar" style="width:200px;height:300px;">
+
+
+      <img data-aos="fade-up"
+      data-aos-duration="3000" id="XoX" src="img\7.jpg" alt="Avatar" style="width:200px;height:300px;">
+
+      <img data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500" id="XoX" src="img\6.jpg" alt="Avatar" style="width:200px;height:300px;">
+
+    </section>
+
+    <div class="image-container1">
+      <div class="text">BOOKS</div>
+    </div>
+
+  </main>
+  <footer>
+    <div class="footer">
+      <br>
+      <br><br>
+      <br>
+
+
+      <div  class="contain">
+        <div class="col">
+          <h1>Company</h1>
+          <ul>
+            <li>About</li>
+            <li>Mission</li>
+            <li>Services</li>
+            <li>Social</li>
+            <li>Get in touch</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h1>Products</h1>
+          <ul>
+            <li>About</li>
+            <li>Mission</li>
+            <li>Services</li>
+            <li>Social</li>
+            <li>Get in touch</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h1>Accounts</h1>
+          <ul>
+            <li>About</li>
+            <li>Mission</li>
+            <li>Services</li>
+            <li>Social</li>
+            <li>Get in touch</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h1>Resources</h1>
+          <ul>
+            <li>Webmail</li>
+            <li>Redeem code</li>
+            <li>WHOIS lookup</li>
+            <li>Site map</li>
+            <li>Web templates</li>
+            <li>Email templates</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h1>Support</h1>
+          <ul>
+            <li>Contact us</li>
+            <li>Web chat</li>
+            <li>Open ticket</li>
+          </ul>
+        </div>
+        <div class="col social">
+          <h1>Social</h1>
+          <ul>
+            <li><img src="https://svgshare.com/i/5fq.svg" width="32" style="width: 32px;"></li>
+            <li><img src="https://svgshare.com/i/5eA.svg" width="32" style="width: 32px;"></li>
+            <li><img src="https://svgshare.com/i/5f_.svg" width="32" style="width: 32px;"></li>
+          </ul>
+        </div>
+        <div class="clearfix"></div>
+        <div style="padding-left:20px">
+          <p>Made By Rashid-Alsawalqa</p>
+        </div>
+        <br>
+      </div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+      AOS.init();
+    </script>
+  <script src="JavaS/home-app.js"></script>
 </body>
 
 </html>
