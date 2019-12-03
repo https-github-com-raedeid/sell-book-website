@@ -91,5 +91,6 @@ var go = function () {
 var create_finish = document.createElement('button')
 create_finish.setAttribute('type', 'submit');
 create_finish.setAttribute('onclick', 'go()')
+create_finish.setAttribute('class','cartb')
 body.appendChild(create_finish);
 create_finish.textContent = 'Cart'

@@ -10,3 +10,6 @@ body.appendChild(new_line);
 body.appendChild(create_p);
 new_line.textContent =  `Name : ${feed_back.Name}`
 create_p.textContent = `The total cost of books : ${feed_back.Quantity} * ${feed_back.Price} = ${feed_back.Quantity * parseInt(feed_back.Price.slice(0,1))} Jd`
+var go = function (){
+    window.location.href = 'aboutUs.html'
+}
