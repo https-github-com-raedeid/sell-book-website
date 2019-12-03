@@ -1,3 +1,5 @@
+localStorage.removeItem('cart')
+localStorage.removeItem('request_customer')
 console.log(JSON.parse(localStorage.getItem("name")))
 var nameCustomer= JSON.parse(localStorage.getItem("name"));
 // console.log(nameCustomer);
