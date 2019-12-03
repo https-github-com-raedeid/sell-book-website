@@ -8,4 +8,28 @@ html{
   
     background-image: url(https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
   }
+  .text{
+    background-color: lightgrey;
+    width: 400px;
+    border: 15px solid #F39C12;
+    border-radius: 20px;
+    padding: 50px;
+    margin: 150px;
+    position: relative;
+  left: 300px;
+  font-family: 'Josefin Sans', sans-serif;
+font-size: xx-large;
+-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+-webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+animation-name: example;
+animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+from {background-color: rgba(255, 0, 0, 0.438);}
+to {background-color: rgba(255, 255, 0, 0.548);}
+}
+
+  }
   
