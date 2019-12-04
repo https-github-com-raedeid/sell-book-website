@@ -173,10 +173,10 @@ p{
     -webkit-transform: translateZ(0); backface-visibility: hidden;
   scale: (1.0, 1.0);
     transform: translateZ(0);
-  background:#1B2030 url(https://wallpaperaccess.com/full/127349.jpg) 50% 0 no-repeat;
-  background-size:100%;
+  background:#1B2030 url(https://images3.alphacoders.com/104/1048898.jpg) 50% 0 no-repeat;
+  background-size:120%;
   background-attachment:fixed;
-  animation: grow 100s  linear 10ms infinite;
+  animation: grow 40s  linear 10ms infinite;
   transition:all 0.4s ease-in-out;
   z-index:-2
 }
