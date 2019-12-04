@@ -19,11 +19,12 @@ padding: 4px;
 background-color: rgba(0, 0, 0, 0.801);
 border: 2px solid #F39C12;
 border-radius: 1em;
-margin: 20px;
-width: 440px;
+margin: 70px;
+margin-top: 0px;
+width: 360px;
 float: left;
 transition: 900ms;
-margin: 80px;
+
 }
 
 .feed:hover{
@@ -35,14 +36,11 @@ transition: 900ms;
   background-color: #f1f1f1;
 color: #F39C12;
 font-size: 16px;
-padding: 11px 20px;
+padding: 11px 30px;
 border: none;
 cursor: pointer;
 border-radius: 5px;
-/* text-align: center; */
-
-margin-left: 90px;
-
+text-align: center;
 }
 
 .take:hover{
@@ -53,7 +51,7 @@ color: white;
   font-size: 36px;
   color: #F39C12;
   margin-top: 160px;
-  margin-left: 300px;
+  margin-left: 230px;
 }
 
 .cartb{
@@ -63,8 +61,7 @@ font-size: 16px;
 padding: 16px 30px;
 cursor: pointer;
 border-radius: 5px;
-float: right;
-margin-top: 20px;
+/* float: right; */
 transition: 500ms;
 }
 
@@ -96,8 +93,9 @@ height:40px
   
 }
 #Shope{
+  margin: 20px;
   transition: 500ms;
-  position: fixed;
+  /* position: fixed; */
   z-index: +2;
   color: orange;
 }
