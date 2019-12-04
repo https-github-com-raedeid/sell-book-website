@@ -15,8 +15,8 @@ function closeNav() {
 
 
 var allBooks = [['Murder in Cherry Hills', 'mystery', '6-12', '2011-until now','/img/pro_pbid_3893388.jpg','7 Jd',0],
-['Infinity',  'mystery', '6-12', '2011-until now','/img/pro_pbid_4322159.jpg','8 Jd',0],
-['No Shelter',  'mystery', '6-12', '2011-until now','/img/pro_pbid_11887.jpg','9 Jd',0],
+['Infinity', 'mystery', '13-18', '1990-2000','/img/pro_pbid_4322159.jpg','8 Jd',0],
+['No Shelter', 'mystery', '19 or More', '2001-2010','/img/pro_pbid_11887.jpg','9 Jd',0],
 ['Sindi and the Moon', 'true_story', '6-12', '2001-2010','/img/01.jpg','10 Jd',0],
 ['The Girl with No Name', 'true_story', '13-18', '1990-2000','/img/pro_pbid_16660.jpg','11 Jd',0],
 ['When Johnny Comes Marching', 'true_story', '19 or More', '2011-until now','/img/1318432602.jpg','12 Jd',0],
