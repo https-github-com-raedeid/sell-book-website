@@ -146,13 +146,7 @@ body {
     border-radius: 40px;
   }
   
- .include img{
-  
-  border-radius: 40%;
-  border: solid #F39C12;
-  margin: 20px;
-  
- }
+ 
  #names:hover{
     cursor: pointer;
     color: #F39C12;

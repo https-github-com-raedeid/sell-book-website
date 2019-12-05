@@ -173,8 +173,8 @@ p{
     -webkit-transform: translateZ(0); backface-visibility: hidden;
   scale: (1.0, 1.0);
     transform: translateZ(0);
-  background:#1B2030 url(https://images3.alphacoders.com/104/1048898.jpg) 50% 0 no-repeat;
-  background-size:120%;
+  background:#1B2030 url(http://wallpapers.net/man-reading-a-book-hd-wallpaper/download/3840x2160.jpg) 50% 0 no-repeat;
+  background-size:140%;
   background-attachment:fixed;
   animation: grow 40s  linear 10ms infinite;
   transition:all 0.4s ease-in-out;
@@ -183,6 +183,12 @@ p{
 .header a{
   color:#F39C12
 }
+#tit{
+  font-size: 25px;
+  color: #cccccc;
+}
+
+
 .menu{
   display:block;
   width:40px;
@@ -273,6 +279,7 @@ p{
   
 }
 
+
 .image-container {
     background-image: url(https://blog.rezoomo.com/wp-content/uploads/2019/06/wp3903759.jpg);
     background-size: cover;
@@ -294,6 +301,16 @@ p{
     background-position: center;
     background-repeat: no-repeat;
     /* clear: both; */
+  }
+  .image-container2{
+    background-image: url(https://wallpapersmug.com/download/3840x2160/f12332/books.jpg);
+    background-size: cover;
+    position: relative;
+    height: 300px;
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   .text {
